@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/indexPageStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles/indexPageStyles.css">
+
+    <script src="scripts/indexPageScripts.js" defer></script>
 
     <title>Sniper_TVmc - Développeur Junior</title>
 </head>
@@ -15,15 +18,19 @@
             <div class="navBar">
 
                 <ul>
-                    <li class="navBar-Button"><a href="/index.html">Accueil</a></li>
-                    <li class="navBar-Button"><a href="/pages/projectsPage.html">Projets</a></li>
-                    <li class="navBar-Button">Réseaux-Sociaux</li>
-                    <li class="navBar-Button">Contact</li>
-                    <li class="navBar-Button">Blog</li>
+                    <li class="navBar-Button" onclick="homeButtonClick()">
+                        Accueil</li>
+                    <li class="navBar-Button" onclick="projectsButtonClick()">
+                        Projets</li>
+                    <li class="navBar-Button"> <!-- onclick="socialNetworksButtonClick()"> -->
+                        Réseaux-Sociaux</li>
+                    <li class="navBar-Button"> <!-- onclick="contactButtonClick()"> -->
+                        Contact</li>
+                    <li class="navBar-Button" onclick="blogButtonClick()">
+                        Blog</li>
 
                 </ul>
             </div>
         </div>
-
     </body>
 </html>
